@@ -1,0 +1,28 @@
+#game-area {
+    background-color: #f0f0f0;
+    border: 2px solid #000;
+    height: 500px;
+    position: relative;
+    width: 500px;
+}
+
+.personaje {
+    height: 50px;
+    position: absolute;
+    width: 50px;
+}
+
+#player {
+    background-image: url('jefemaestro.jpg');
+    background-size: cover;
+}
+
+#beyonce {
+    background-image: url('Inquisidor.jpg');
+    background-size: cover;
+}
+
+body.dark-mode {
+    background-color: #121212;
+    color: white;
+}
